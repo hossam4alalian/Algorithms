@@ -1,17 +1,16 @@
 package test;
 
 import java.util.Scanner;
-import sam.library.Math;
+import sam.library.MyMath;
 
 public class Test {
 
 	public static void main(String[] args) {
-		//example on how it works.
-				int[] array= {1,2,3,4,5};
-				Scanner input = new Scanner(System.in);
-				int num=input.nextInt();
-				
-				System.out.println(Math.binarySearch(array, num));
+		//example on how binary search works.
+		//System.out.println(MyMath.binarySearch({1,2,3,4,5}, 2));
+		
+		//example on how distance search works.
+		//System.out.println(MyMath.distance(5,6,2,4));
 
 	}
 
