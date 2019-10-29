@@ -11,6 +11,10 @@ public class Test {
 		
 		//example on how distance search works.
 		//System.out.println(MyMath.distance(5,6,2,4));
+		
+		//example on how intersect function works.
+		System.out.println(MyMath.intersecting(50,50,60,40,5,5,50,50));
+		
 
 	}
 
