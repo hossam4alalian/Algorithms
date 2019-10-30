@@ -15,7 +15,12 @@ public class Test {
 		//example on how intersect function works.
 		//System.out.println(MyMath.intersecting(50,50,60,40,5,5,50,50));
 		
-
+		//example on how moveTo function works.
+		/*int x=10;
+		int y=10;
+		int x2=50;
+		int y2=50;
+		System.out.println(MyMath.moveTo(x,y,x2,y2));*/
 	}
 
 }

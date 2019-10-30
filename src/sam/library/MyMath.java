@@ -34,5 +34,52 @@ public class MyMath {
 		}
 		
 	}
+	
+	public static boolean moveTo(double x, double y, double x2, double y2) {
+		boolean moving=false;
+		
+		while(x<x2) {
+				x++;
+				System.out.println(x);
+				moving=true;
+				
+			}
+			while(x>x2) {
+				x--;
+				moving=true;
+					
+			}
+			
+			while(y<y2) {
+				y++;
+				moving=true;
+				
+			}
+			while(y>y2) {
+				y--;
+				moving=true;
+				
+			}
+			if(x==x2 && y==y2) {
+				moving=false;
+			}
+			
+			return moving;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 
 }
