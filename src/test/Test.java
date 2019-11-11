@@ -21,6 +21,10 @@ public class Test {
 		int x2=50;
 		int y2=50;
 		System.out.println(MyMath.moveTo(x,y,x2,y2));*/
+		
+		
+		//example on how angle search works.
+		//System.out.println(MyMath.angle(5,6,2,4));
 	}
 
 }
