@@ -1,7 +1,9 @@
 package test;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import sam.library.MyMath;
+import sam.library.MyString;
 
 public class Test {
 
@@ -9,7 +11,7 @@ public class Test {
 		//example on how binary search works.
 		//System.out.println(MyMath.binarySearch({1,2,3,4,5}, 2));
 		
-		//example on how distance search works.
+		//example on how distance works.
 		//System.out.println(MyMath.distance(5,6,2,4));
 		
 		//example on how intersect function works.
@@ -25,6 +27,18 @@ public class Test {
 		
 		//example on how angle search works.
 		//System.out.println(MyMath.angle(5,6,2,4));
+		
+		//example on how sorting from the least number.
+		//double[] test= {1.0,2.0,6.0,3.0,4.0};
+		//MyMath.sortToBigger(test);
+		//Arrays.sort(test);
+		//System.out.println(Arrays.toString(test));
+		
+		//example on how find charecter works.
+		//String word="blaoooh";
+		//String vocal="aoiyöäåe";
+		//System.out.println(MyString.findCharacters(word, vocal));
+		
 	}
 
 }

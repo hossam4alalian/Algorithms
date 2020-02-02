@@ -1,5 +1,7 @@
 package sam.library;
 
+import java.lang.reflect.Array;
+
 public class MyMath {
 	
 	//this method returns the index that num is found in, if it's not found, it returns -1.
@@ -46,6 +48,28 @@ public class MyMath {
 		}
 		
 		return intersect=false;
+		
+	}
+	
+	public static void sortToBigger(Double[] array) {
+		boolean sorted=false;
+		
+		while(!sorted) {
+			
+			for(int i=0; i<array.length; i++) {
+				
+			    double temp = array[i];
+					if( temp<array[i+1]) {
+						System.out.println(array[i]);
+					}
+					
+			}
+			
+		}
+		
+		
+		
+		
 		
 	}
 	
