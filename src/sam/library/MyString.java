@@ -18,7 +18,14 @@ public class MyString {
 		}
 		found=found.substring(0, found.length()-1);
 		found+="}";
+		if(found.equals("}")) {
+			found="Not found.";
+		}
+		else {
+			return found;
+		}
 		return found;
+		
 		
 	}
 }
