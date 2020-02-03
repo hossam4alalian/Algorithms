@@ -35,9 +35,9 @@ public class Test {
 		//System.out.println(Arrays.toString(test));
 		
 		//example on how find charecter works.
-		//String word="blssssssh";
-		//String vocal="aoiyöäåe";
-		//System.out.println(MyString.findCharacters(word, vocal));
+		String word="blsssssaadioussh";
+		String vocal="aoiyöäåe";
+		System.out.println(MyString.findCharacters(word, vocal));
 		
 	}
 
