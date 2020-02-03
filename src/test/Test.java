@@ -29,15 +29,15 @@ public class Test {
 		//System.out.println(MyMath.angle(5,6,2,4));
 		
 		//example on how sorting from the least number.
-		//double[] test= {1.0,2.0,6.0,3.0,4.0};
-		//MyMath.sortToBigger(test);
+		double[] test= {1.0,2.0,6.0,3.0,4.0,7.0};
+		System.out.println(MyMath.sortToBigger(test));
 		//Arrays.sort(test);
 		//System.out.println(Arrays.toString(test));
 		
 		//example on how find charecter works.
-		String word="blsssssaadioussh";
-		String vocal="aoiyöäåe";
-		System.out.println(MyString.findCharacters(word, vocal));
+		//String word="blsssssaadioussh";
+		//String vocal="aoiyöäåe";
+		//System.out.println(MyString.findCharacters(word, vocal));
 		
 	}
 

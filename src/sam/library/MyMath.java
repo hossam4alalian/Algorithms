@@ -1,6 +1,7 @@
 package sam.library;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MyMath {
 	
@@ -51,27 +52,6 @@ public class MyMath {
 		
 	}
 	
-	public static void sortToBigger(Double[] array) {
-		boolean sorted=false;
-		
-		while(!sorted) {
-			
-			for(int i=0; i<array.length; i++) {
-				
-			    double temp = array[i];
-					if( temp<array[i+1]) {
-						System.out.println(array[i]);
-					}
-					
-			}
-			
-		}
-		
-		
-		
-		
-		
-	}
 	
 	public static int moveTo(int x, int y, int x2, int y2) {
 		while(x<x2) {
