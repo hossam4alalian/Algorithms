@@ -24,13 +24,12 @@ public class Test {
 		int y2=50;
 		System.out.println(MyMath.moveTo(x,y,x2,y2));*/
 		
-		
 		//example on how angle search works.
 		//System.out.println(MyMath.angle(5,6,2,4));
 		
 		//example on how sorting from the least number.
-		double[] test= {1.0,2.0,6.0,3.0,4.0,7.0};
-		System.out.println(MyMath.sortToBigger(test));
+		//double[] test= {1.0,2.0,6.0,3.0,4.0,7.0};
+		//System.out.println(MyMath.sortToBigger(test));
 		//Arrays.sort(test);
 		//System.out.println(Arrays.toString(test));
 		

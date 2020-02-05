@@ -42,16 +42,30 @@ public class MyMath {
 	}
 	
 	public static boolean intersecting(double x, double y, double width, double height, double x2, double y2, double width2, double height2) {
-		boolean intersect=false;
-		
 		if(((y2<=y+height &&y2>=y) && (x2<=x+width &&x2>=x) ) ||( (y<=y2+height2 &&y>=y2) && (x<=x2+width2 &&x>=x2) )) {
-			return intersect=true;
+			return true;
 		}
 		
-		return intersect=false;
+		return false;
 		
 	}
 	
+	public static ArrayList<Double> sortToBigger(double[] test) {
+		ArrayList<Double> answer = new ArrayList<Double>();
+		
+			for(int i=0; i<test.length; i++) {
+				 if( test[i]<test[i] ) {
+						
+					answer.add(test[i]);
+					//break;
+					//System.out.println(test[i]);
+				}
+			}
+			return answer;
+			
+		
+		
+	}
 	
 	public static int moveTo(int x, int y, int x2, int y2) {
 		while(x<x2) {
