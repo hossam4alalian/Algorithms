@@ -38,6 +38,12 @@ public class Test {
 		//String vocal="aoiyöäåe";
 		//System.out.println(MyString.findCharacters(word, vocal));
 		
+		
+		//example on how factorial of any number works
+		//int num=5;
+		//System.out.println(factorial(num));
+		
+		
 	}
 
 }

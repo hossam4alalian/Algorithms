@@ -62,9 +62,16 @@ public class MyMath {
 				}
 			}
 			return answer;
-			
 		
+	}
+	
+	//this method will return the factorial of any number
+	public static int factorial(int num) {
+		if (num!= 0) {
+			return num*factorial(num-1);
+		}
 		
+		return 1;
 	}
 	
 	public static int moveTo(int x, int y, int x2, int y2) {
