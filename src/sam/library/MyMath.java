@@ -74,6 +74,26 @@ public class MyMath {
 		return 1;
 	}
 	
+	public static double getCommon(double[] test)
+	{
+	  int count = 1, tempCount;
+	  double common = test[0];
+	  double temp = 0;
+	  for (int i = 0; i < (test.length - 1); i++){
+	    temp = test[i];
+	    tempCount = 0;
+	    for (int ii = 1; ii < test.length; ii++){
+	      if (temp == test[ii])
+	        tempCount++;
+	    }
+	    if (tempCount > count){
+	    	common = temp;
+	      count = tempCount;
+	    }
+	  }
+	  return common;
+	}
+	
 	public static int moveTo(int x, int y, int x2, int y2) {
 		while(x<x2) {
 			return ++x;
