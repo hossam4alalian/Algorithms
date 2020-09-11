@@ -19,4 +19,31 @@ public class MyString {
 		}
 		return found;
 	}
+	
+
+	public static String getMiddle(String str){
+		int stringLength = str.length();
+		int temp = stringLength/2;
+		
+		char middleCharecter = str.charAt(temp);
+		if(str.length()!=1){
+			char beforeMiddle=str.charAt((stringLength/2)-1);
+			
+			if(str.length()%2==0){
+				return beforeMiddle+""+middleCharecter;
+			}
+			else{
+				if(str.length()!=1){
+					return middleCharecter+"";
+				}
+				else{
+					return str;
+				}
+			}
+		}
+		else{
+			return str;
+		}
+		
+	}
 }

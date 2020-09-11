@@ -13,8 +13,12 @@ public class Test {
 		//System.out.println(MyMath.binarySearch({1,2,3,4,5}, 2));
 		
 		//example on how get common element works.
-		double[] test= {1,1,1,2,3,4,4};
-		System.out.println(MyMath.getCommon(test));		
+		//double[] test= {1,1,1,2,3,4,4};
+		//System.out.println(MyMath.getCommon(test));		
+		
+		//example on how get middle stringworks.
+		//String test= "asdd";
+		//System.out.println(MyString.getMiddle(test));
 		
 		//example on how distance works.
 		//System.out.println(MyMath.distance(5,6,2,4));
